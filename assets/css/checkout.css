@@ -1,0 +1,26 @@
+/**
+ * WooCommerce Checkout Optimizer — Frontend Styles
+ */
+
+.wco-optimized .form-row {
+    position: relative;
+}
+
+.wco-optimized .form-row.woocommerce-invalid .wco-error-hint {
+    display: none;
+}
+
+/* Smooth error transitions */
+.wco-optimized .woocommerce-error {
+    transition: all 0.3s ease;
+}
+
+/* Mobile optimizations */
+@media (max-width: 768px) {
+    .wco-field-item {
+        flex-wrap: wrap;
+    }
+    .wco-field-item input {
+        width: 100%;
+    }
+}
